@@ -1,4 +1,4 @@
-# NodeJS-CRUD
+# NodeJS, mongoose 7.0.3, ejs simple CRUD
 NodeJS, MongoDB simple CRUD
 
 npm init
