@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Edycja Książek</title>
+  </head>
+  <body>
+    <h1>Edycja Książek</h1>
+    <form action="/users/<%= user._id %>/edit" method="POST">
+      <label for="title">Tytuł:</label><br>
+      <input type="text" id="title" name="title" value="<%= user.title %>"><br>
+      <label for="email">Autor:</label><br>
+      <input type="text" id="author" name="author" value="<%= user.author %>"><br>
+      <button type="submit">Zapisz zmiany</button>
+    </form>
+  </body>
+</html>
